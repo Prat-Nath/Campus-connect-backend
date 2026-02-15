@@ -151,7 +151,7 @@ The system includes 20 comprehensive models:
 
 ### Register a User
 ```bash
-POST http://localhost:5000/api/auth/register
+POST https://campus-connect-backend-eyt0.onrender.com/api/auth/register
 Content-Type: application/json
 
 {
@@ -164,7 +164,7 @@ Content-Type: application/json
 
 ### Login
 ```bash
-POST http://localhost:5000/api/auth/login
+POST https://campus-connect-backend-eyt0.onrender.com/api/auth/login
 Content-Type: application/json
 
 {
@@ -175,7 +175,7 @@ Content-Type: application/json
 
 ### Protected Route Example
 ```bash
-GET http://localhost:5000/api/auth/me
+GET https://campus-connect-backend-eyt0.onrender.com/api/auth/me
 Authorization: Bearer <your_jwt_token>
 ```
 
